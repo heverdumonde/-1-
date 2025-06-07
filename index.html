@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> 회장후보 기호 1번 김민준 공약목록</title>
+  <!-- 나눔고딕 적용 -->
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      font-family: 'Nanum Gothic', sans-serif;
+      font-weight: 400;
+    }
+
+    body {
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .wrapper {
+      width: 100%;
+      padding: 20px 0; /* 상단 여백 줄임 */
+      background: #ffffff;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .title {
+      font-size: 22px;
+      font-weight: 300;
+      text-align: center;
+      margin-bottom: 12px;
+    }
+
+    .title-line {
+      border: none;
+      border-top: 1.5px solid #333;
+      width: 80%;
+      margin: 0 auto 30px;
+    }
+
+    .accordion-container {
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .accordion {
+      border-top: 1px solid #ccc;
+      background: #fff;
+      overflow: hidden;
+      padding: 24px 0;
+    }
+
+    .accordion:first-child {
+      border-top: none;
+    }
+
+    .accordion-header {
+      padding: 0 30px;
+      cursor: pointer;
+      font-weight: 300; /* 폰트 굵게 */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 20px;
+      background-color: transparent;
+    }
+
+    .accordion-header:hover {
+      background-color: transparent;
+    }
+
+    .accordion-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.4s ease, background-color 0.4s ease;
+      padding: 0 32px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #444;
+      background-color: transparent;
+    }
+
+    .accordion.active .accordion-body {
+      max-height: 1200px;
+      padding-top: 16px;
+      padding-bottom: 20px;
+      background-color: #fff0f5;
+    }
+
+    .arrow {
+      transition: transform 0.3s ease;
+    }
+
+    .accordion.active .arrow {
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="title">회장후보 기호1번 김민준 공약목록</div>
+    <hr class="title-line" />
+
+    <div class="accordion-container">
+
+      <div class="accordion" onclick="this.classList.toggle('active')">
+        <div class="accordion-header">
+          <span>1.[자치운영관리] 학생회의 모든 소비내역을 투명하게 바꾸겠습니다.</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="accordion-body">
+            □ 목 표<br>
+            - 학생회의 모든 재정 사용 내역을 투명하게 공개하여 신뢰받는 자치기구 실현<br>
+            - 회비·예산 사용 내역을 학생 누구나 쉽게 확인할 수 있도록 시스템화<br>
+            <br>
+            □ 이행방법<br>
+            -  [학생회비 내역 전면 공개 시스템 구축]<br>
+            -  연간·분기별 학생회비 사용계획서와 정산보고서 인스타에 정기 게시<br>
+            -  모든 수입·지출 항목을 항목별, 항목사유별로 세분화하여 공개<br>
+            -  항목 예: 문화행사비, 복지용품구입비, 회의운영비 등<br>
+            <br>
+            □ [학생 누구나 열람 가능한 디지털 플랫폼 연동]<br>
+            -  구글 스프레드시트, 포스터 QR코드, 반별 단톡방 연계 등 다중 채널에서 확인 가능<br>
+            -  투명성을 위해 일자/금액/업체명/사용목적 전부 공개<br>
+            -  불필요한 지출 방지를 위해 의무 의견수렴 절차 도입<br>
+            <br>
+            □ 이행기간<br>
+            -  2025년 2학기 및 2026 1학기 전면 도입 및 차기 학생회에 제도 인수인계 의무화<br>
+            <br>
+            □ 기대효과<br>
+            -  학생회 운영의 신뢰도 획기적 개선<br>
+            -  회비 납부에 대한 학생들의 납득과 동참도 상승<br>
+            -  자치회의 정당성 확보<br>
+            -  다음 학생회로의 제도적 전승을 통해 지속가능한 투명 행정문화 정착<br>
+        </div>
+      </div>
+
+      <div class="accordion" onclick="this.classList.toggle('active')">
+        <div class="accordion-header">
+          <span>2.[자치운영관리] 2026 1학기에 의미있는 프로젝트를 추첨해 프로젝트에 지원을 할 수 있도록 적극 추진해 보겠습니다.</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="accordion-body">
+            □ 목 표<br>
+            - 학생들이 주도적으로 제안하는 창의적, 의미 있는 활동을 지원 및 발전<br>
+            
+            <br>
+            □ 이행방법<br>
+            [선발 프로젝트에 실질적 예산지원]<br>
+            -  자판기가 학교에 설치되게 될시 자판기수익금의 10%를 학생회가 받게 되고 다음 금액을 통해 지원<br> 
+           
+            <br>
+            [결과 발표 및 공유 문화 조성]<br>
+            -  선정 프로젝트는 결과물 또는 활동보고를 발표하거나 게시<br>
+            <br>
+            □ 이행기간<br>
+            -  2026년 1학기 운영 <br>
+            <br>
+            □ 기대효과<br>
+            -  다양한 재능과 관심사를 가진 학생들의 다학제적 협력 촉진<br>
+        </div>
+      </div>
+
+      <div class="accordion" onclick="this.classList.toggle('active')">
+        <div class="accordion-header">
+          <span>3.[문화생활] 축제기간에 다른 학교 밴드, 및 댄스팀들을 초청하도록 적극 추진 해보겠습니다.</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="accordion-body">
+            □ 목 표<br>
+            - 학생의 문화향유 기회를 넓히고, 전교생의 만족도를 극대화<br>
+            
+            <br>
+            □ 이행방법<br>
+            [다른학교 밴드간의 컨텍]<br>
+            -  공연팀 범위: 댄스팀, 밴드등의 다양한 장르 고려<br> 
+           
+            <br>
+            [학교 및 행정실과의 협의 체계 구축]<br>
+            -  예산 사용과 공연 승인 절차를 위해 교내 협의 간담회 정례화<br>
+            -  행사 2개월 전부터 사전계획서, 필요장비등 절차 이행<br>
+            <br>
+            □ 이행기간<br>
+            -  12월 연말 행사<br>
+            <br>
+            □ 기대효과<br>
+            -  감동과 기억에 남는 축제<br>
+            -  다른 학교 학생들과의 교류를 통해서 지역학생들의 연대 및 문화적 감수성과 예술적 자극 증진<br>
+        </div>
+      </div>
+
+      <div class="accordion" onclick="this.classList.toggle('active')">
+        <div class="accordion-header">
+          <span>4.[문화생활] 여러 트렌디한 문화 증진적 활동을 여러 개최해 문화가 발전된 학교를 만들겠습니다.</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="accordion-body">
+            □ 목 표<br>
+            - 학생들의 문화접촉 기회를 넓히고 문화인으로서의 성장<br>
+            - 학생들의 관심을 반영한 트렌디하고 참여도 높은 문화 활동 정례화<br>
+            
+            <br>
+            □ 이행방법<br>
+            [월별 또는 분기별 문화 행사 개최]<br>
+            - 버스킹 데이, 사복데이 트렌디함을 위해 sns 인기 콘텐츠와의 연계<br>
+
+            <br>
+            [학생 문화 기획단 운영 또는 문화팀 조직]<br>
+            -  문화분야에 관심을 가진 학생들을 모집하여 직접 아이디어 기획 및 실현 현실화<br>
+            <br>
+            □ 이행기간<br>
+            -  2025년 2학기부터 분기별 또는 월별로 주시적 개최<br>
+            <br>
+            □ 기대효과<br>
+            -  학교를 단순한 학습 공간이 아닌 문화적 감수성과 예술적 자극을 주는 공간으로 변화<br>
+            -  학생들의 문화적 관심과 참여도 증진<br>
+            -  타 학교와 차별화된 문화경쟁력 확보<br>
+        </div>
+      </div>
+
+      <div class="accordion" onclick="this.classList.toggle('active')">
+        <div class="accordion-header">
+          <span>5.[학업] 학생들의 스케쥴 관리를 위해 컴시간과 같은 안내일정 사이트를 만들겠습니다.</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="accordion-body">
+            □ 목 표<br>
+            - 학업과 활동이 효율적으로 병행되는 일정관리 환경 구축<br>
+            - 개인 시간 관리력 향상과 정보 혼선 방지<br>
+            
+            <br>
+            □ 이행방법<br>
+            [학교 맞춤형 '디지털 학사일정 사이트' 개발 및 운영]<br>
+            - 컴시간이라는 앱과 매우 유사한 인터페이스를 바탕으로 학생별 시간표, 수행평가 일정, 행사 등 통합 관리<br>
+            -  필수기능:<br> 
+            개인/학급 시간표 조회<br> 
+            수행이나 과제<br>
+            시험 일정 달력 등록<br>
+            실시간 공지 기능<br>
+
+            <br>
+            [학생 접근성 중심의 UI로 설계]<br>
+            - 모바일 브라우저 친화형으로 개발 -> 어디서든지 확인 가능 <br>
+            -  앱 대신 웹 기반으로 비용 절감<br>
+            <br>
+            □ 이행기간<br>
+            -  2025년 여름방학 중 시범제작 -> 2학기 초나 중순쯤 베타서비스 베포<br>
+            - 피드백 수렴을 통한 개선으로 2026년 1학기 부터 공식 채널화 목표
+            <br><br>
+            □ 기대효과<br>
+            -  학생 개개인의 학가일정 관리능력 향상으로 인해 과제, 누락, 중복 대비<br>
+            -  반복적 공지 부담 감소로 인해 행정 간소화 및 학생 만족도 상승<br>
+            -  디지털 도구 활용 교육과도 연계되어 21세기형 학습환경 기반 마련<br>
+        </div>
+      </div>
+
+      <div class="accordion" onclick="this.classList.toggle('active')">
+        <div class="accordion-header">
+          <span>6.[학업] 시험시간뿐만 아니라 수요가 높은 요일에 자습실을 개방하겠습니다.</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="accordion-body">
+            □ 목 표<br>
+            - 특정 시기에만 국한된 자습실 이용에서 벗어나 지속적 학습 공간 제공<br>
+            - 수요에 따라 탄력적으로 운영하여 공간 활용도와 학습 몰입도 동시 향상<br>
+            
+            <br>
+            □ 이행방법<br>
+            [수요 기반 요일 분석 및 정례 개방 시스템 마련]<br>
+            - 일주일을 미리 시범 운영하여 가장 수요가 많은 2개의 요일에 자습실을 운영<br>
+
+            <br>
+            □ 이행기간<br>
+            -  2025년 2학기부터 2026년 1학기까지 주기적 개방<br>
+            <br>
+            □ 기대효과<br>
+            -  평소 학습 공간 부족으로 인한 학습의지 저하 문제 해결<br>
+            -  시험기간 외 학업 계획 유지 가능 이로인해 장기적 학습습관 형성에 기여<br>
+            -  학생의 자율성을 높이는 학생주도 공간관리 문화 확립<br>
+        </div>
+      </div>
+
+      <div class="accordion" onclick="this.classList.toggle('active')">
+        <div class="accordion-header">
+          <span>7.[학업] 위탁운영을 통한 자판기설치를 적극검토 및 추진해 보겠습니다.</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="accordion-body">
+            □ 목 표<br>
+            - 학생의 편의성 증대와 학급 흐름을 끊지 않는 환경 조성<br>
+            - 쉬는 시간, 자율학습 시간 등 효율적인 에너지 보충 수단 마련<br>
+            
+            <br>
+            □ 이행방법<br>
+            [학교 여건에 맞는 위탁업체 선정 및 제안 방식 운영]<br>
+            - 자판기 운영 전문 업체를 대상으로 공식 제안요청서(RFP) 전달<br>
+            - 계약 시 학생회 기여금 환급 제도 포함 가능성 검토<br>
+
+            <br>
+            [자판기 설치 장소 및 운영 시간대 조정]<br>
+            - 학생 투표와 선생님들과의 협의를 통해 위치 선정<br>
+
+             <br>
+            [운영투명성과 안전성 확보 체계 마련]<br>
+            - 자판기 품목 및 가격은 사전 고지 및 분기별 점검 실시<br>
+            - 고장 및 이상 발생 시 학교와 업체 간 실시간 대응 체계 구축<br>
+            <br>
+            □ 이행기간<br>
+            -  2025년 년 2학기 자판기 설치 후보지 및 품목 수요조사 실시<br>
+            -  2025년 2학기 말 또는 2026년초 운영시작 <br>
+            <br>
+            □ 기대효과<br>
+            -  자판기 설치를 통한 학생들의 일상 편의성 대폭 향상<br>
+            -  학생회가 실질적 편익을 가지고 오며 그 수익으로 프로젝트 지원이라는 의미있는 가치 창출<br>
+            -  위탁운영 방식으로 관리 부담 없이 지속가능한 운영 가능<br>
+
+            <br>*하지만 막대한 자금이 들어가며, 계약이라는 특성상 설치 유무에 대해서 불투명하므로 불이행 될 수 도 있음<br>
+            최대한 적극 추진해볼 예정*<br>
+        </div>
+      </div>
+
+      <div class="accordion" onclick="this.classList.toggle('active')">
+        <div class="accordion-header">
+          <span>8.[또래상담] 학년간 서로의 원활한 소통을 위해 점접을 다량 만들어 서로의 친목을 높이겠습니다.</span>
+          <span class="arrow">▼</span>
+        </div>
+        <div class="accordion-body">
+            □ 목 표<br>
+            - 선후배 간 존중과 이해를 기반으로 하는 상생적 학교문화 조성<br>
+            - 자발적인 교류의 장을 통해 학교 전체의 응집력과 정체성 강화<br>
+            - 학년 간 IB에 관한 소통을 통한 ib제도에 대한 이해력 강화<br>
+            
+            <br>
+            □ 이행방법<br>
+            [학년 연계 소모임 및 협업 프로그램 정례화]<br>
+            - 학년별 혼합 구성의 프로젝트형 활동, 소규모 동아리, 친선행사 기획<br>
+
+            <br>
+            [정기 소통 프로그램 도임]<br>
+            - 월 1회 이상 정례 소통행사<br>
+            -  사전 익명 질문 수합 -> 선배가 직접 답변하거나 멘토링 진행<br>
+            <br>
+            □ 이행기간<br>
+            -  2026년 1학기부터 분기별 또는 월별로 주시적 개최<br>
+            <br>
+            □ 기대효과<br>
+            -  학년 간 거리감 해소로 인한 학교 전반의 공동체 의식 강화<br>
+            -  상호 멘토링과 학습 노하우 공유를 통한 학업, 정서적 성장 촉진<br>
+            -  IB에 대한 높은 이해도를 형성하여 1,2학년들의 성적 향상<br>
+        </div>
+      </div>
+
+    </div>
+
+    
+  </div>
+
+</body>
+</html>
